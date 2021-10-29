@@ -9,7 +9,7 @@ class Category(models.Model):
         return self.name
 
     class Meta:
-        verbose_name_plural = "Ccategories"
+        verbose_name_plural = "Categories"
 
 
 class Contact(models.Model):
